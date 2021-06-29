@@ -6,6 +6,7 @@
     <router-link to='/contact'>Contact </router-link>
   </div>
   <router-view></router-view> -->
+  0.0
 </template>
 
 <script lang="ts">
