@@ -6,7 +6,6 @@
     <router-link to='/contact'>Contact </router-link>
   </div>
   <router-view></router-view> -->
-  1111
 </template>
 
 <script lang="ts">

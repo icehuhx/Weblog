@@ -1,5 +1,8 @@
-# 安装依赖
-npm install
+### 安装依赖
+yarn
 
-# 运行
+### 发生产
+yarn build
+
+### 运行
  npm run dev
