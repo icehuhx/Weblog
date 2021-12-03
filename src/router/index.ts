@@ -12,7 +12,7 @@ export default createRouter({
       children: [
         {
           path: 'index',
-          component: () => import('../views/index.vue')
+          component: () => import('@/views/index.vue')
         }
       ]
     },
@@ -22,7 +22,7 @@ export default createRouter({
       children: [
         {
           path: 'contact',
-          component: () => import('../views/contact.vue')
+          component: () => import('@/views/contact.vue')
         }
       ]
     }
