@@ -12,19 +12,19 @@ export default createRouter({
       children: [
         {
           path: 'index',
-          component: () => import('@/views/index.vue')
+          component: () => import('../views/index.vue')
         }
       ]
     },
-    {
-      path: '/user',
-      component: Layout,
-      children: [
-        {
-          path: 'contact',
-          component: () => import('@/views/contact.vue')
-        }
-      ]
-    }
+    // {
+    //   path: '/user',
+    //   component: Layout,
+    //   children: [
+    //     {
+    //       path: 'contact',
+    //       component: () => import('@/views/contact.vue')
+    //     }
+    //   ]
+    // }
   ]
 })
