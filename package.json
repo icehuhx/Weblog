@@ -1,5 +1,7 @@
 {
   "version": "0.0.0",
+  "private": true,
+  "homepage": "https://icehuhx.github.io/Weblog/",
   "scripts": {
     "dev": "vite --port 8080",
     "build": "vite build",
