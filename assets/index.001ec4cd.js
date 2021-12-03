@@ -1,0 +1,1 @@
+import{p as a,a as s,o as d,c,w as o}from"./vendor.ab9df7c9.js";const e={},t=o();a("data-v-571fc091");const n={class:"index"};s();const r=t(((a,s)=>(d(),c("div",n," 我是index "))));e.render=r,e.__scopeId="data-v-571fc091";export default e;
