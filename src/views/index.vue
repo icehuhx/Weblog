@@ -1,20 +1,8 @@
 <template>
-  <!-- <home-header></home-header> -->
   <div class="index">
-    <home-sidebar></home-sidebar>
+    我是index
   </div>
 </template>
-
-<script lang="ts">
-import HomeHeader from '@/components/home-header.vue';
-import HomeSidebar from '@/components/home-sidebar.vue';
-export default {
-  components: {
-    HomeHeader,
-    HomeSidebar
-  }
-}
-</script>
 
 <style lang="scss" scoped>
 .index {

@@ -1,4 +1,4 @@
-import Layout from '@/layout/index.vue'
+import Layout from '../layout/index.vue';
 import { createRouter, createWebHashHistory } from 'vue-router';
 
 const routerHistory = createWebHashHistory();
@@ -9,6 +9,7 @@ export default createRouter({
     {
       path: '/',
       component: Layout,
+      redirect: '/index',
       children: [
         {
           path: 'index',

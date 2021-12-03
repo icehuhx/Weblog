@@ -5,7 +5,7 @@
       <!-- <span class="info-nick">12334567</span> -->
     </div>
     <div class="sidebar-tags">
-      <n-button>clikeMe!</n-button>
+      <n-button>clikeMe!111</n-button>
     </div>
   </div>
 </template>
