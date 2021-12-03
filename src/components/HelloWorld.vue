@@ -16,7 +16,7 @@
   </p>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { defineProps, reactive } from 'vue'
 
 defineProps({

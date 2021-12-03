@@ -1,5 +1,5 @@
 <template>
-  <home-header></home-header>
+  <!-- <home-header></home-header> -->
   <div class="index">
     <home-sidebar></home-sidebar>
   </div>

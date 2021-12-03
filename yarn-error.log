@@ -37,8 +37,6 @@ npm manifest:
     "dependencies": {
       "babel": "^6.23.0",
       "babel-plugin-syntax-dynamic-import": "^6.18.0",
-      "element-plus": "^1.0.2-beta.48",
-      "element-ui": "^2.15.2",
       "scss": "^0.2.4",
       "scss-loader": "^0.0.1",
       "vue": "^3.0.5",
@@ -293,32 +291,6 @@ Lockfile:
     version "1.5.2"
     resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
     integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
-  
-  element-plus@^1.0.2-beta.48:
-    version "1.0.2-beta.48"
-    resolved "https://registry.nlark.com/element-plus/download/element-plus-1.0.2-beta.48.tgz#8da99decd397b9975cd894d389096d2ed58c699e"
-    integrity sha1-jamd7NOXuZdc2JTTiQltLtWMaZ4=
-    dependencies:
-      "@popperjs/core" "^2.4.4"
-      "@types/lodash" "^4.14.161"
-      async-validator "^3.4.0"
-      dayjs "1.x"
-      lodash "^4.17.20"
-      mitt "^2.1.0"
-      normalize-wheel "^1.0.1"
-      resize-observer-polyfill "^1.5.1"
-  
-  element-ui@^2.15.2:
-    version "2.15.2"
-    resolved "https://registry.nlark.com/element-ui/download/element-ui-2.15.2.tgz#1b4c4af582a37061de7d8146047a34f0099b52cc"
-    integrity sha1-G0xK9YKjcGHefYFGBHo08AmbUsw=
-    dependencies:
-      async-validator "~1.8.1"
-      babel-helper-vue-jsx-merge-props "^2.0.0"
-      deepmerge "^1.2.0"
-      normalize-wheel "^1.0.1"
-      resize-observer-polyfill "^1.5.0"
-      throttle-debounce "^1.0.1"
   
   emojis-list@^3.0.0:
     version "3.0.0"

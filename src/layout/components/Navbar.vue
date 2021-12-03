@@ -27,6 +27,7 @@ export default {
 
   .header-li {
     padding: 10px 20px;
+    cursor: pointer;
 
     a {
       cursor: pointer;

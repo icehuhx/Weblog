@@ -29,7 +29,7 @@ import { reactive, computed } from 'vue'
 import { useRouter } from 'vue-router'
 export default {
   // setup相当于vue2.0的 beforeCreate和 created，是vue3新增的一个属性，所有的操作都在此属性中完成
-  setup(props, context) {
+  setup() {
     // 通过reactive 可以初始化一个可响应的数据，与Vue2.0中的Vue.observer很相似
     const state = reactive({
       todoList: [{
@@ -58,14 +58,13 @@ export default {
     })
 
     // 修改待办状态
-    const handleChangeStatus = (item ,status) => {
+    const handleChangeStatus = (item:any ,status: any) => {
       item.done = status
     }
-    
     // 新增待办
     const handleAddTodo = () => {
       if(!state.todo) {
-        alert('请输入待办事项')
+        console.log('请输入待办事项');
         return
       }
       state.todoList.push({
